@@ -5,11 +5,11 @@ import Link from 'next/link'
 export const Sidebar = () => {
   return (
     <div className="flex flex-col p-4">
-      <Link href={'/'}>
+      <Link href="/">
         <FaXTwitter className="w-16 h-16 p-3 hover:bg-gray-100 rounded-full transition-all duration-200" />
       </Link>
       <Link
-        href={'/'}
+        href="/"
         className="flex items-center w-fit xl:p-3 hover:bg-gray-100 rounded-full transition-all duration-200 gap-3"
       >
         <HiHome className="xl:w-7 xl:h-7 w-16 h-16 xl:p-0 p-3" />
